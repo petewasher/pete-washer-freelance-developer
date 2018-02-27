@@ -1,2 +1,2 @@
 FROM nginx:alpine
-COPY www /usr/share/nginx/html/
+ADD www /usr/share/nginx/html/
